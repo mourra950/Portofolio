@@ -10,6 +10,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@coreui/react": "^4.5.2",
     "@react-three/fiber": "^8.10.1",
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",

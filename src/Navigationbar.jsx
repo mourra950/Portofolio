@@ -1,10 +1,11 @@
 import { Nav, Navbar } from "react-bootstrap"
+import { SidebarMenuNav } from "react-bootstrap-sidebar-menu"
 
 function Navigationbar() {
 
   return (
     <>
-    
+    <SidebarMenuNav/>
       <Nav fill={true} justify className="justify-content-center vertical-center" activeKey="/home">
         <Nav.Item >
           <Nav.Link  href="/home">About</Nav.Link>
