@@ -5,15 +5,15 @@ function Navigationbar() {
   return (
     <>
     
-      <Nav fill={true} className="justify-content-center" activeKey="/home">
+      <Nav fill={true} justify className="justify-content-center vertical-center" activeKey="/home">
         <Nav.Item >
-          <Nav.Link  href="/home">Home</Nav.Link>
+          <Nav.Link  href="/home">About</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">About</Nav.Link>
+          <Nav.Link eventKey="link-1">Projects</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Projects</Nav.Link>
+          <Nav.Link eventKey="link-2">Contact</Nav.Link>
         </Nav.Item>
 
       </Nav>

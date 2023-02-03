@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Light";   /*Can be any text*/
+    src: local("Pixels"),
+      url("./fonts/Pixels.ttf") format("truetype");
+  }
+  .vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    
+    display: flex;
+    align-items: center;
+  }
+*{
+    font-family: light;
+    font-size:50px;
+   overflow: hidden;
+   text-align: center;
+   
+   
+}
+a.nav-link{
+    font-family: light;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    transition:300ms;
+    padding-bottom: 40px;
+    
+    height: 4rem;
+}
+
+
+a.nav-link:hover
+{
+    font-family: light;
+    font-size: 90px;
+    color: rgb(200, 35, 35);
+   
+}
+body
+{
+  background-image: url("background.gif");
+  background-repeat: no-repeat;
+  /* background-position-x: center;
+  background-position-y: center ; */
+  background-size: contain;
+  
+}
