@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Light"; /*Can be any text*/
-  src: local("DePixelKlein"), url("./fonts/DePixelKlein.ttf") format("truetype");
+  src: local("DePixelSchmal"), url("./fonts/DePixelSchmal.ttf") format("truetype");
   font-size: xx-large;
 }
 
