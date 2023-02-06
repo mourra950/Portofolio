@@ -1,47 +1,65 @@
 @font-face {
-    font-family: "Light";   /*Can be any text*/
-    src: local("Pixels"),
-      url("./fonts/Pixels.ttf") format("truetype");
-  }
-  .vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-    
-    display: flex;
-    align-items: center;
-  }
-*{
-    font-family: light;
-    font-size:50px;
-   overflow: hidden;
-   text-align: center;
-   
-   
-}
-a.nav-link{
-    font-family: light;
-    font-size: 70px;
-    color: rgb(0, 0, 0);
-    transition:300ms;
-    padding-bottom: 40px;
-    
-    height: 4rem;
+  font-family: "Light"; /*Can be any text*/
+  src: local("Pixels"), url("./fonts/Pixels.ttf") format("truetype");
+  font-size: xx-large;
 }
 
-
-a.nav-link:hover
-{
-    font-family: light;
-    font-size: 90px;
-    color: rgb(200, 35, 35);
-   
+* {
+  font-family: light;
+  text-align: center;
+  font-size:2.5vmax;
 }
-body
+.icon
 {
-  background-image: url("background.gif");
-  background-repeat: no-repeat;
-  /* background-position-x: center;
-  background-position-y: center ; */
-  background-size: contain;
+  padding-right: 1vmax;
+  font-size: 3vmax;
+  color: rgb(92, 92, 92);
   
+}
+.icons
+{
+  
+  
+  color: rgb(0, 0, 0);
+  transition: 240ms;
+}
+
+a.nav-link {
+  
+  color: rgb(121, 121, 121);
+  transition: 240ms;
+  
+
+}
+
+a.nav-link:hover {
+  color: rgb(0, 0, 0);
+}
+
+
+.img_first
+{
+  width:auto ;
+  height: 20vmax;
+}
+
+.brandy
+{
+  width: auto;
+  height: 3vmax;
+}
+
+.Youtube :hover
+{
+  color: rgb(183, 9, 9);
+}
+
+.Insta :hover
+{
+  color: rgb(244, 59, 130);
+}
+
+.Github :hover
+{
+  color: rgb(160, 39, 211);
 }

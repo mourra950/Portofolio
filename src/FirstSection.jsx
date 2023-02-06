@@ -6,12 +6,7 @@ function FirstSection() {
 
     return (
         <>
-        
-            <Container>
-                <Row className="justify-content-md-center" >
-                    <Card.Img style={{ width: '5rem' }} variant="top" src="./pixelball.gif" />
-                </Row>
-            </Container>
+                    <Image src='./pixelball-export.gif' className='img_first' />
         </>
     )
 }
