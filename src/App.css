@@ -1,13 +1,20 @@
 @font-face {
   font-family: "Light"; /*Can be any text*/
-  src: local("Pixels"), url("./fonts/Pixels.ttf") format("truetype");
+  src: local("DePixelKlein"), url("./fonts/DePixelKlein.ttf") format("truetype");
   font-size: xx-large;
 }
 
 * {
   font-family: light;
   text-align: center;
+  font-size: 1.4vmax;
+  line-height: 3;
+}
+.firstsection h1{
   font-size:2.5vmax;
+  line-height: 2;
+  padding-left: 4vmax;
+  padding-right:4vmax ;
 }
 .icon
 {
@@ -51,7 +58,7 @@ a.nav-link:hover {
 
 .Youtube :hover
 {
-  color: rgb(183, 9, 9);
+  color: rgb(255, 5, 5);
 }
 
 .Insta :hover
@@ -61,5 +68,25 @@ a.nav-link:hover {
 
 .Github :hover
 {
-  color: rgb(160, 39, 211);
+  color: rgb(194, 74, 245);
+}
+.Linkdin :hover
+{
+  color: rgb(113, 198, 255);
+}
+
+
+.firstsection p
+{
+  line-height: 4;
+  font-size: 1.3vmax;
+  color: black;
+  padding-left: 4vmax;
+  padding-right:4vmax ;
+}
+
+.quote
+{
+  font-style: italic;
+  text-shadow: 0.2vmax 0.2vmax 0.9vmax;
 }

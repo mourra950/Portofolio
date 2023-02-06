@@ -1,3 +1,4 @@
-I am a computer engineering student at Ain shams university and currently studying computer graphics as my major.
-My goal is to be a future game developer and create my own game which will hopefully someday have a positive effect on someone's state of mind like how the Celeste was for me.
-For the time being, I am learning all I can have my hands on and I am aiming at the end of this year to start my Youtube channel to teach people in a fun and innovative way about the graphics major which not a lot of people are a fan of(mainly in Egypt).
+from an early age, I fell in love with video games and SFX effects in animations and movies. 
+so I decided to embark on my odyssey and started learning whatever I can put my hands hoping that it will help
+me to achieve my dream one day which is creating my own game on the same level as the "legend of Zelda" series
+and share my knowledge with people around so more people get invested in learning game development.
