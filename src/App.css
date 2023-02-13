@@ -90,13 +90,19 @@ a.nav-link:hover {
   font-style: italic;
   text-shadow: 0.2vmax 0.2vmax 0.9vmax;
 }
- .ahmed
+
+canvas , .card-images
 {
-  width:100%;
-  height:40vmax;
-  
+  height: 220px;
+  width: 100%;
 }
-canvas
+p.card-text
 {
-  height:40vmax;
+  font-size: 1vmax;
+}
+.card-group
+{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  justify-items: center;
 }
