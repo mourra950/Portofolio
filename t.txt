@@ -1,4 +1,2 @@
-from an early age, I fell in love with video games and SFX effects in animations and movies. 
-so I decided to embark on my odyssey and started learning whatever I can put my hands hoping that it will help
-me to achieve my dream one day which is creating my own game on the same level as the "legend of Zelda" series
-and share my knowledge with people around so more people get invested in learning game development.
+I am still learning, exploring and experimenting with different areas in computer science and arts.
+for now, these languages and software which I have a strong background and have done multiple projects with them. 
