@@ -88,14 +88,14 @@ a.nav-link:hover {
 .quote
 {
   font-style: italic;
-  text-shadow: 0.2vmax 0.2vmax 0.9vmax;
+  text-shadow: 0.1vmax 0.1vmax 3vmax;
 }
 
-canvas , .card-images
+/* canvas , .card-images
 {
   height: 220px;
   width: 100%;
-}
+} */
 p.card-text
 {
   font-size: 1vmax;
@@ -105,4 +105,19 @@ p.card-text
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   justify-items: center;
+}
+.skills
+{
+  height: 4vmax;
+  width:  4vmax;
+  margin: 4vmax;
+}
+a.YoutubeButton{
+  background-color:rgb(247, 54, 54) ;
+}
+a.YoutubeButton:hover{
+background-color:rgb(252, 113, 113) ;
+}
+.logo{
+  flex-direction: row  ;
 }

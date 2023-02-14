@@ -1,10 +1,10 @@
-import { Button, Card, CardGroup, Col, Container, Image, Navbar, Row } from 'react-bootstrap';
+import { Button, Card, CardGroup,  Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigationbar from './Navigationbar.jsx';
-import FirstSection from './FirstSection.jsx';
+
 import { Canvas } from '@react-three/fiber';
 import Model from './Room1.jsx'
-import { Float, OrbitControls, OrthographicCamera, PresentationControls, Sparkles } from '@react-three/drei';
+import { Float, OrbitControls, Sparkles } from '@react-three/drei';
+import './App.css'
 function Projects() {
     return (
         <><h1> Projects</h1>
@@ -27,8 +27,8 @@ function Projects() {
                         <Card.Title><h2>3D Room</h2></Card.Title>
                         <Card.Text>
                             I am currently learning 3D web devolpment using THREE.js and React-fiber.
+                            please enjoy this demo by dragging and zooming
                         </Card.Text>
-                        <Button variant="dark">Go somewhere</Button>
                     </Card.Body>
                 </Card>
                 <Card >
@@ -39,10 +39,21 @@ function Projects() {
                         <Card.Text>
                             Pixel ball was my first to the world of pixel art and its one of my favorite hobbies at the moment
                         </Card.Text>
-                        <Button variant="dark">Go somewhere</Button>
+                        
                     </Card.Body>
                 </Card>
-               
+                <Card >
+                    <Image src='https://img.youtube.com/vi/g7wws6VFd3o/hqdefault.jpg' />
+
+                    <Card.Body>
+                        <Card.Title><h2>High School graduation video</h2></Card.Title>
+                        <Card.Text>
+                            I was responsible to create my Highschool graduation video and used different moment throughout our school years mixed with some famous trends and memes. 
+                        </Card.Text>
+                        <Button href='https://www.youtube.com/watch?v=g7wws6VFd3o' variant='dark' >Watch on Youtube</Button>
+                    </Card.Body>
+                </Card>
+                
             </CardGroup>
         </>
     )
