@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaPython } from 'react-icons/fa'
 function Skills() {
     return (
-        <>
+        <div className=' Sections'>
             <h1> Skills</h1>
             <p style={{ paddingRight: '10vmax', paddingLeft: '10vmax' }}>
                 I am still learning, exploring and experimenting with different areas in computer science and arts.
@@ -105,6 +105,7 @@ function Skills() {
                         Blender
                     </Figure.Caption>
                 </Figure>
+
                 {/* 
                 <Image className='skills' src='./icons/c-.png' />
                 <Image className='skills' src='./icons/c-sharp.png' />
@@ -122,7 +123,8 @@ function Skills() {
                 <Image className='skills' src='./icons/database.png' />
                 <Image className='skills' src='./icons/blender_community_badge_white.png' /> */}
             </div>
-        </>
+            for more info you can check my Linkdin profile
+        </div>
     )
 }
 

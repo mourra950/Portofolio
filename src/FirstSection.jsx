@@ -5,9 +5,9 @@ import Image from 'react-bootstrap/Image'
 function FirstSection() {
 
     return (
-        <div className='firstsection'>
+        <div className='firstsection '>
             <h1 style={{padding:'2vmax'}}>Hello, Adventurer welcome to my profile.</h1>
-            <Image src='./bwselfie2.png' className='img_first' />
+            <Image src='./selfie.png' className='img_first' />
             <p>
                 My name is <b style={{fontSize:'1.3vmax'}}>Omar Yousef</b> a third-year Computer Engineering Student at Ain shams University computer graphics major.
                 <br />

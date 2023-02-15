@@ -6,35 +6,47 @@ function Education() {
 
     return (
 
-        <>
-        <h1>Education</h1>
+        <div className='Sections' style={{margin:'5vmax'}}>
+            <h1>Education</h1>
             <Accordion>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Ain Shams University</Accordion.Header>
+                    <Accordion.Header>BACHELOR OF ENGINEERING, AIN SHAMS UNIVERSITY</Accordion.Header>
                     <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Expected July 2024.
+                        <br />
+                        Major in Multimedia and Computer Graphics.
+                        <br />
+                        Minor in Software Product Lines.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Header>HIGH SCHOOL SECONDARY EDUCATION, BRITHISH RAMSES SCHOOL</Accordion.Header>
                     <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        IGSCE Diploma<br/>
+                        GPA: 3.88/4.0<br/>
+                        Passed the Delf B1 exam.
+{/* 
+                        O Levels Subjects:<br/>
+                        Math: A+<br/>
+                        Physics: A+<br/>
+                        Chemistry: A+<br/>
+                        Computer Science: A+<br/>
+                        English: A<br/>
+                        French: A+<br/>
+                        Arabic: A<br/>
+                        Accounting: A<br/>
+                        A Level Subjects:<br/>
+                        Math: A <br/> */}
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="2">
+                    <Accordion.Header>PRE HIGH SCHOOL, COLLEGE DE LA SAINTE FAMILLE</Accordion.Header>
+                    <Accordion.Body>
+                        Francophone School was there for 8 years.
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
-        </>
+        </div>
     )
 }
 export default Education

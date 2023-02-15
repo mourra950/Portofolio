@@ -6,14 +6,16 @@ import FirstSection from './FirstSection.jsx';
 import Projects from './Project.jsx';
 import Skills from './Skills.jsx';
 import Education from './Education.jsx';
+import Experiences from './Experiences.jsx';
 function Hero() {
     return (
         <>
             <Navigationbar />
-            <FirstSection />
-            <Education/>
-            <Skills/>
-            <Projects/>
+            <FirstSection   />
+            <Education   />
+            <Skills />
+            <Experiences />
+            <Projects  />
         </>
     )
 }

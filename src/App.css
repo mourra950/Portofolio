@@ -121,3 +121,14 @@ background-color:rgb(252, 113, 113) ;
 .logo{
   flex-direction: row  ;
 }
+.carousel-item
+{-webkit-text-stroke: 0.2px black;
+  height: 45vmax;
+}
+p.carousel-caption{
+  -webkit-text-stroke: 2px black;
+}
+.Sections
+{
+  margin-top: 4vmax;
+}
