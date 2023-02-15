@@ -1,9 +1,10 @@
 import { Badge, Card, Figure, Image, Stack } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaPython } from 'react-icons/fa'
+import { Slide, Zoom } from "react-awesome-reveal";
 function Skills() {
     return (
-        <div className=' Sections'>
+        <div className=' Sections' style={{backgroundColor:'#eeeeee'}}>
             <h1> Skills</h1>
             <p style={{ paddingRight: '10vmax', paddingLeft: '10vmax' }}>
                 I am still learning, exploring and experimenting with different areas in computer science and arts.
@@ -12,8 +13,9 @@ function Skills() {
 
             <br />
 
-
+            <Slide cascade triggerOnce>
             <div style={{ paddingRight: '4vmax', paddingLeft: '4vmax' }}>
+            
                 <Figure>
                     <Figure.Image className='skills' src='./icons/letter-c.png' />
                     <Figure.Caption>
@@ -29,7 +31,7 @@ function Skills() {
                 <Figure>
                     <Figure.Image className='skills' src='./icons/c-sharp.png' />
                     <Figure.Caption>
-                        C Sharp(mainly for unity)
+                        C Sharp
                     </Figure.Caption>
                 </Figure>
                 <Figure>
@@ -123,7 +125,8 @@ function Skills() {
                 <Image className='skills' src='./icons/database.png' />
                 <Image className='skills' src='./icons/blender_community_badge_white.png' /> */}
             </div>
-            for more info you can check my Linkdin profile
+            </Slide>
+            for more info you can check my <a className=" Linkdin1" href="https://www.linkedin.com/in/mourra950/">Linkdin</a> profile
         </div>
     )
 }

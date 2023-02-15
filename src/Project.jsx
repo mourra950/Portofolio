@@ -2,70 +2,73 @@ import { Button, Card, CardGroup, Carousel, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Canvas } from '@react-three/fiber';
-import Model from './Room1.jsx'
+import Model from './ultimateRoom.jsx'
 import { Float, OrbitControls, Sparkles } from '@react-three/drei';
 import './App.css'
+import { Fade } from 'react-awesome-reveal';
 function Projects() {
     return (
+        
         <div className=' Sections'>
             <h1> Projects</h1>
             <div />
-
-            <Carousel variant="dark">
-                <Carousel.Item>
-                    <Canvas shadows camera={{ position: [10, 10, 10], fov: 40 }}>
-                        <pointLight position={[0, 2.5, 5]} />
-
-
-                        <Float>
-                            <Sparkles count={20} position={[0, 1, 0]} size={10} color={'yellow'} scale={[6, 5, 6]} />
-                            <Model position={[0, 0, 0]} />
-                        </Float>
-                        <OrbitControls rotation={true} enablePan={false} />
-                    </Canvas>
-                    <Carousel.Caption>
-                        <h3>3D Room</h3>
-                        <p>3D web devolpment using React-fiber.
-                            interact by dragging and zooming</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <Image src='./pixelball-export.gif' style={{ height: '25vmax' }} />
-
-                    <Carousel.Caption>
-                        <h3>Pixel Ball</h3>
-                        <p>Pixel ball was my first to the world of pixel art.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-
-                    <Image src='https://img.youtube.com/vi/g7wws6VFd3o/maxresdefault.jpg' style={{ height: '25vmax' }} />
-
-                    <Carousel.Caption >
-                        <h3>High School graduation video</h3>
-                        <p>
-                            I was responsible to create my Highschool graduation video .
-                            <a href='https://www.youtube.com/watch?v=g7wws6VFd3o'>Watch</a>
-                        </p>
-
-                        {/* <Button href='https://www.youtube.com/watch?v=g7wws6VFd3o' variant='dark' >Watch on Youtube</Button> */}
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <Image src='./jake.png' style={{ height: '25vmax' }} />
-
-                    <Carousel.Caption >
-                        <h3>3D cartoon Modelling</h3>
-                        <p>
-                            2021 i started learning and recreating my favorite characters on blender.
-                        </p>
-
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+            
+                <Carousel touch={false} variant="dark">
+                    <Carousel.Item>
+                        <Canvas shadows camera={{ position: [10, 1, 10], fov: 40 }}>
+                            <pointLight position={[1, 5, 2.5]} />
 
 
+                            <Float>
+                                <Sparkles count={20} position={[0, 1, 0]} size={10} color={'yellow'} scale={[6, 5, 6]} />
+                                <Model position={[0, 0, 0]} />
+                            </Float>
+                            <OrbitControls rotation={true} enablePan={false} />
+                        </Canvas>
+                        <Carousel.Caption>
+                            <h4>3D Room</h4>
+                            <p>3D web devolpment using React-fiber.
+                                interact by dragging and zooming</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image src='./pixelball-export.gif' style={{ height: '25vmax' }} />
+
+                        <Carousel.Caption>
+                            <h4>Pixel Ball</h4>
+                            <p>Pixel ball was my first to the world of pixel art.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+
+                        <Image src='https://img.youtube.com/vi/g7wws6VFd3o/maxresdefault.jpg' style={{ height: '25vmax' }} />
+
+                        <Carousel.Caption >
+                            <h4>High School graduation video</h4>
+                            <p>
+                                I was responsible to create my Highschool graduation video .
+                                <a href='https://www.youtube.com/watch?v=g7wws6VFd3o'>Watch</a>
+                            </p>
+
+                            {/* <Button href='https://www.youtube.com/watch?v=g7wws6VFd3o' variant='dark' >Watch on Youtube</Button> */}
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image src='./jake.png' style={{ height: '25vmax' }} />
+
+                        <Carousel.Caption >
+                            <h4>3D cartoon Modelling</h4>
+                            <p>
+                                2021 i started learning and recreating my favorite characters on blender.
+                            </p>
+
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+
+           
         </div>
+       
     )
 }
 

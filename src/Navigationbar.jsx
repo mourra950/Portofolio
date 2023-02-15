@@ -14,12 +14,7 @@ function Navigationbar() {
       <Navbar bg="light" expand="true"  >
         <Container>
           <Navbar.Brand href="#home">
-            <img
-
-              src="./mourrasign.png"
-              className="brandy"
-
-            />{' '}
+           Omar Yousef
 
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -27,9 +22,10 @@ function Navigationbar() {
             <Nav className="me-auto" style={{ padding: '3vmax' }}>
               <Nav.Item >
                 {/* <Nav.Link href="/home">About</Nav.Link> */}
-                Unfortunately site is under construction<br />🚧👷🚧<br />until then you can check my other profiles on other platforms
-                <br />
-                not all information are included in the site like certificates all can be found on linkdin.
+                site is still in development<br />🚧👷🚧<br />
+                  
+                not all information are included in the site like certificates  <br />all can be found on my other platforms.
+                
               </Nav.Item>
               {/* <Nav.Item>
                 <Nav.Link eventKey="link-1">Projects</Nav.Link>

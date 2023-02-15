@@ -74,6 +74,14 @@ a.nav-link:hover {
 {
   color: rgb(113, 198, 255);
 }
+a.Linkdin1 
+{
+  color: rgb(2, 66, 108);
+}
+a.Linkdin1 :hover
+{
+  color: rgb(113, 198, 255);
+}
 
 
 .firstsection p
@@ -123,12 +131,12 @@ background-color:rgb(252, 113, 113) ;
 }
 .carousel-item
 {-webkit-text-stroke: 0.2px black;
-  height: 45vmax;
+  height: 42vmax;
 }
 p.carousel-caption{
   -webkit-text-stroke: 2px black;
 }
 .Sections
 {
-  margin-top: 4vmax;
+  padding-top: 3vmax;
 }
