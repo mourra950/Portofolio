@@ -17,7 +17,7 @@ export default function Experiences() {
                     },
                 }}
             >
-            <Fade cascade damping={0.2} >
+            <Fade triggerOnce cascade damping={0.3} >
                 <Experience role={'MBC group'} title={'Broadcast and Engineering intern'} des={'Joined as an intern for 2 months during which I learned everything starting from the studio until the video and audio signal reach every house including infrastructure, IT, TV Direction, and quality assurance.'}/>
                 <Experience role={'AIESEC'} title={'Incoming global teaching project manager'} des={'In 2022 I worked in AIESEC Ainshams as product manager and exchange participants manager during which i succesfully made contracts with different establishments to provide foreigners for the teaching positions needed and got at the end of the semester best member award'}/>
                 <Experience role={'ICPC '} title={'Contestant'} des={'We participated in the ICPC - International Collegiate Programming Contest as a team enigma and got ranked 17.'}/>

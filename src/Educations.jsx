@@ -11,7 +11,7 @@ function Educations() {
             <h1>Education</h1>
 
             <Accordion>
-            <Fade cascade damping={0.2}>
+            <Fade triggerOnce cascade damping={0.7}>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>BACHELOR OF ENGINEERING, AIN SHAMS UNIVERSITY</Accordion.Header>
                     <Accordion.Body>

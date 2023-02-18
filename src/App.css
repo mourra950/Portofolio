@@ -140,3 +140,11 @@ p.carousel-caption{
 {
   padding-top: 3vmax;
 }
+.Typewriter__wrapper
+{
+  font-size: 2.4vmax;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
