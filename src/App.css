@@ -3,11 +3,14 @@
   src: local("DePixelSchmal"), url("./fonts/DePixelSchmal.ttf") format("truetype");
   font-size: xx-large;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 * {
   font-family: light;
   text-align: center;
-  font-size: 1.4vmax;
+  font-size: 2vmax;
   line-height: 3;
 }
 .firstsection h1{
@@ -86,8 +89,9 @@ a.Linkdin1 :hover
 
 .firstsection p
 {
+  
   line-height: 4;
-  font-size: 1.3vmax;
+  font-size: 1.6vmax;
   color: black;
   padding-left: 4vmax;
   padding-right:4vmax ;
@@ -138,7 +142,7 @@ p.carousel-caption{
 }
 .Sections
 {
-  padding-top: 3vmax;
+  padding-top: 4vmax;
 }
 .Typewriter__wrapper
 {

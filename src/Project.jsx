@@ -27,7 +27,7 @@ function Projects() {
                         </Canvas>
                         <Carousel.Caption>
                             <h4>3D Room</h4>
-                            <p>3D web devolpment using React-fiber.
+                            <p style={{ fontSize: '1.4vmax' }}>3D web devolpment using React-fiber.
                                 interact by dragging and zooming</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -36,7 +36,7 @@ function Projects() {
 
                         <Carousel.Caption>
                             <h4>Pixel Ball</h4>
-                            <p>Pixel ball was my first to the world of pixel art.</p>
+                            <p style={{ fontSize: '1.4vmax' }}>Pixel ball was my first to the world of pixel art.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -44,8 +44,8 @@ function Projects() {
                         <Image src='https://img.youtube.com/vi/g7wws6VFd3o/maxresdefault.jpg' style={{ height: '25vmax' }} />
 
                         <Carousel.Caption >
-                            <h4>High School graduation video</h4>
-                            <p>
+                            <h5 >High School graduation video</h5>
+                            <p style={{ fontSize: '1.4vmax' }}>
                                 I was responsible to create my Highschool graduation video .
                                 <a href='https://www.youtube.com/watch?v=g7wws6VFd3o'>Watch</a>
                             </p>
@@ -56,9 +56,9 @@ function Projects() {
                     <Carousel.Item>
                         <Image src='./jake.png' style={{ height: '25vmax' }} />
 
-                        <Carousel.Caption >
-                            <h4>3D cartoon Modelling</h4>
-                            <p>
+                        <Carousel.Caption  >
+                            <h4 >3D cartoon Modelling</h4>
+                            <p style={{ fontSize: '1.4vmax' }}>
                                 2021 i started learning and recreating my favorite characters on blender.
                             </p>
 

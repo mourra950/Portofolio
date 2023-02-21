@@ -7,12 +7,9 @@ function FirstSection() {
 
     return (
         <div className='firstsection ' style={{ backgroundColor: '#cccccc', paddingBottom: '2.5vmax',paddingRight:'2.5vmax',paddingLeft: '2.5vmax'}}>
-            <h1 style={{ padding: '2vmax' }}>Hello, Adventurer welcome to my profile.</h1>
+            {/* <h1 style={{ padding: '2vmax' }}>Hello, Welcome to my simple portfolio.</h1> */}
             <Image src='./bwselfie22.png' className='img_first' />
-            <p>
-               
-
-            </p>
+            
             <b >
                 <Typewriter
                     options={{
@@ -27,22 +24,13 @@ function FirstSection() {
 
             <p style={{paddingRight:'5vmax',paddingLeft:'5vmax'}}>
                 <br />
-                My name is <b style={{ fontSize: '1.4vmax' }}>Omar Yousef</b> ,I am third-year Computer Engineering Student at Ain shams University computer graphics major.
+                My name is <b style={{ fontSize: '2vmax' }}>Omar Yousef</b>, I am third-year Computer Engineering Student at Ain shams University.
                 <br />
-                From an early age, I fell in love with video games and SFX effects in animations and movies.
+                From an early age, I fell in love with computer systems and I started learning programming, editing,3D modeling and pixel art year by year I started to accumulate more knowledge in different areas of the world of computers🖥️ and hope someday I join a formidable team and apply all that I learned throughout the years.
                 <br />
-                So I decided to embark on my odyssey and started learning everything hoping that it will help
-                me to achieve my dream one day which is creating my own game on the same level as the<br />
-                <b>
-                    <Typewriter
-                        options={{
-                            strings: ["Legend of Zelda", "Celeste", "Sonic", "Undertale", "Pokemon", "FarCry3"],
-                            autoStart: true,
-                            loop: true,
-                            delay: 50
-                        }}
-                    />
-                </b>
+                
+                I strongly believe in free education for all and I hope someday that my Youtube channel that i am building will be the reason for someone else success hopefully.<br/>
+                
 
                 
                 {/* <b className='quote' >
