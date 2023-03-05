@@ -8,10 +8,8 @@ function Skills() {
             <h1> Skills</h1>
             <p style={{ paddingRight: '10vmax', paddingLeft: '10vmax' }}>
                 I am still learning, exploring and experimenting with different areas in computer science and arts.
-                for now, these languages and software which I have a strong background and have done multiple projects with them.
+               these technologies are the ones that I'm most familiar with at the moment. 
             </p>
-
-            <br />
 
             <Slide cascade triggerOnce>
             <div style={{ paddingRight: '4vmax', paddingLeft: '4vmax' }}>

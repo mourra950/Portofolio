@@ -29,7 +29,7 @@ function FirstSection() {
                 From an early age, I fell in love with computer systems and I started learning programming, editing,3D modeling and pixel art year by year I started to accumulate more knowledge in different areas of the world of computers🖥️ and hope someday I join a formidable team and apply all that I learned throughout the years.
                 <br />
                 
-                I strongly believe in free education for all and I hope someday that my Youtube channel that i am building will be the reason for someone else success hopefully.<br/>
+                {/* I strongly believe in free education for all and I hope someday that my Youtube channel that i am building will be the reason for someone else success hopefully.<br/> */}
                 
 
                 

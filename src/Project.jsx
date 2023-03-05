@@ -11,7 +11,7 @@ function Projects() {
         
         <div className=' Sections'>
             <h1> Projects</h1>
-            <div />
+            
             
                 <Carousel touch={false} variant="dark">
                     <Carousel.Item>
