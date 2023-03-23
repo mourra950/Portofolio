@@ -6,4 +6,7 @@ export default defineConfig({
   base : '/Portofolio',
   
   plugins: [react()],
+  server: {
+    host: true
+  }
 })

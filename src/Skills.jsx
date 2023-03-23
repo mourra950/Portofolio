@@ -1,19 +1,15 @@
-import { Badge, Card, Figure, Image, Stack } from 'react-bootstrap';
+import { Figure } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaPython } from 'react-icons/fa'
-import { Slide, Zoom } from "react-awesome-reveal";
 function Skills() {
     return (
-        <div className=' Sections' style={{backgroundColor:'#eeeeee'}}>
+        <div className=' Sections' style={{ backgroundColor: '#eeeeee' }}>
             <h1> Skills</h1>
             <p style={{ paddingRight: '10vmax', paddingLeft: '10vmax' }}>
-                I am still learning, exploring and experimenting with different areas in computer science and arts.
-               these technologies are the ones that I'm most familiar with at the moment. 
+                I believe in a continuous learning process, which is why I'm always exploring and experimenting with different areas in both computer science and arts. Currently, the technologies I'm most familiar with are the ones I've mentioned, but I'm always eager to expand my horizons and learn more.
             </p>
 
-            <Slide cascade triggerOnce>
             <div style={{ paddingRight: '4vmax', paddingLeft: '4vmax' }}>
-            
+
                 <Figure>
                     <Figure.Image className='skills' src='./icons/letter-c.png' />
                     <Figure.Caption>
@@ -86,7 +82,7 @@ function Skills() {
                         Premiere Pro
                     </Figure.Caption>
                 </Figure>
-                
+
                 <Figure>
                     <Figure.Image className='skills' src='./icons/illustrator.png' />
                     <Figure.Caption>
@@ -123,7 +119,6 @@ function Skills() {
                 <Image className='skills' src='./icons/database.png' />
                 <Image className='skills' src='./icons/blender_community_badge_white.png' /> */}
             </div>
-            </Slide>
             for more info you can check my <a className=" Linkdin1" href="https://www.linkedin.com/in/mourra950/">Linkdin</a> profile
         </div>
     )

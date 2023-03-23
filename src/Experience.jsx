@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
@@ -8,7 +7,6 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent, {
     timelineOppositeContentClasses,
 } from '@mui/lab/TimelineOppositeContent';
-import { textAlign } from '@mui/system';
 
 export default function Experience({ role, des, title }) {
     return (

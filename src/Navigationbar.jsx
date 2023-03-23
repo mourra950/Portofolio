@@ -1,7 +1,4 @@
-
-import { Button } from "bootstrap"
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap"
-import { SidebarMenuNav } from "react-bootstrap-sidebar-menu"
+import { Container, Nav, Navbar} from "react-bootstrap"
 
 import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
@@ -22,9 +19,7 @@ function Navigationbar() {
             <Nav className="me-auto" style={{ padding: '3vmax' }}>
               <Nav.Item >
                 {/* <Nav.Link href="/home">About</Nav.Link> */}
-                site is still in development<br />🚧👷🚧<br />
-                  
-                not all information are included in the site like certificates  <br />all can be found on my other platforms.
+                Please note that my website is still under development 🚧👷🚧 and not all information has been included yet, including my certificates. However, you can find this information and more on my other platforms. Thank you for your understanding and patience as I continue to work on improving my website.
                 
               </Nav.Item>
               {/* <Nav.Item>

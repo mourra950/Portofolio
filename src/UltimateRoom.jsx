@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function Model(props) {
+export default  function Model(props) {
   const { nodes, materials } = useGLTF('./ultimateRoom.glb')
   return (
     <group {...props} dispose={null}>

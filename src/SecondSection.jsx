@@ -1,4 +1,3 @@
-import { Button, Card, Container, Row } from 'react-bootstrap'
 import Image from 'react-bootstrap/Image'
 
 

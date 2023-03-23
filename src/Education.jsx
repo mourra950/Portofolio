@@ -1,16 +1,15 @@
-import { Accordion, Button, Card, Container, Row } from 'react-bootstrap'
-import Image from 'react-bootstrap/Image'
+import { Accordion} from 'react-bootstrap'
 
 
-export default function Education({title,info}) {
+export default function Education({ title, info, k }) {
 
     return (
 
-                <Accordion.Item eventKey="0">
-                    <Accordion.Header>{title}</Accordion.Header>
-                    <Accordion.Body>
-                        {info}
-                    </Accordion.Body>
-                </Accordion.Item>
+        <Accordion.Item eventKey={k}>
+            <Accordion.Header>{title}</Accordion.Header>
+            <Accordion.Body>
+                    {info}
+            </Accordion.Body>
+        </Accordion.Item>
     )
 }
