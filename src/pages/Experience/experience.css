@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Reddd;
+  src: url("./KGRedHands.ttf");
+}
+*, .SE {
+  font-family: Reddd;
+}
+
+.t {
+  font-family: Reddd;
+  font-size: xxx-large;
+  text-align: center;
+}
+
+.s {
+  font-family: Reddd;
+  font-size: x-large;
+  text-align: center;
+}
+
+.side-nav {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.skillz {
+  height: 48px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=experience.css.map */

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Reddd;
+  src: url("./KGRedHands.ttf");
+}
+*,
+.SE {
+  font-family: Reddd;
+}
+
+.t {
+  font-family: Reddd;
+  font-size: xxx-large;
+  text-align: center;
+}
+
+.s {
+  font-family: Reddd;
+  font-size: x-large;
+  text-align: center;
+}
+
+.side-nav {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.skillz {
+  height: 48px;
+  text-align: center;
+}
+
+.Sect {
+  margin: 30px 0 20px 0;
+  font-size: medium;
+  color: black;
+  text-decoration: none;
+}
+
+.Sect:hover {
+  color: rgb(186, 49, 49);
+  transition: 100ms;
+  text-decoration: none;
+}
+
+.project{
+  font-size: larger;
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Reddd;
+  src: url("./KGRedHands.ttf");
+}
+.firstpage {
+  background-image: url(./0001.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Reddd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+.firstpage p {
+  font-size: 9vmax;
+}
+.firstpage div {
+  flex-direction: column;
+  display: flex;
+}
+.firstpage div a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5vmax;
+  text-align: center;
+  margin: 10px 30px 0px 30px;
+}
+.firstpage div a:hover {
+  transition: 100ms;
+  color: rgb(208, 58, 58);
+}
+.firstpage div a:hover::after {
+  content: "}";
+  color: rgb(208, 58, 58);
+}
+.firstpage div a:hover::before {
+  content: "{";
+  color: rgb(208, 58, 58);
+}
+
+/*# sourceMappingURL=indexpage.css.map */

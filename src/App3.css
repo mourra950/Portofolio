@@ -1,0 +1,132 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  text-align: center;
+  font-size: 1.5vmax;
+  line-height: 3;
+}
+.firstsection h1{
+  font-size:2.5vmax;
+  line-height: 2;
+  padding-left: 4vmax;
+  padding-right:4vmax ;
+}
+.icon
+{
+  padding-right: 1vmax;
+  font-size: 3vmax;
+  color: rgb(92, 92, 92);
+  
+}
+.icons
+{
+  
+  
+  color: rgb(0, 0, 0);
+  transition: 240ms;
+}
+
+a.nav-link {
+  
+  color: rgb(121, 121, 121);
+  transition: 240ms;
+  
+
+}
+
+a.nav-link:hover {
+  color: rgb(0, 0, 0);
+}
+
+
+.img_first
+{
+  width:auto ;
+  height: 20vmax;
+}
+
+.brandy
+{
+  width: auto;
+  height: 3vmax;
+}
+
+.Youtube :hover
+{
+  color: rgb(255, 5, 5);
+}
+
+.Insta :hover
+{
+  color: rgb(244, 59, 130);
+}
+
+.Github :hover
+{
+  color: rgb(194, 74, 245);
+}
+.Linkdin :hover
+{
+  color: rgb(113, 198, 255);
+}
+a.Linkdin1 
+{
+  color: rgb(2, 66, 108);
+}
+a.Linkdin1 :hover
+{
+  color: rgb(113, 198, 255);
+}
+
+
+.firstsection p
+{
+  
+  line-height: 4;
+  font-size: 1.5vmax;
+  color: black;
+  padding-left: 4vmax;
+  padding-right:4vmax ;
+}
+
+.quote
+{
+  font-style: italic;
+  text-shadow: 0.1vmax 0.1vmax 3vmax;
+}
+
+/* canvas , .card-images
+{
+  height: 220px;
+  width: 100%;
+} */
+
+a.YoutubeButton{
+  background-color:rgb(247, 54, 54) ;
+}
+a.YoutubeButton:hover{
+background-color:rgb(252, 113, 113) ;
+}
+.logo{
+  flex-direction: row  ;
+}
+
+.Sections
+{
+  padding-top: 4vmax;
+}
+.Typewriter__wrapper
+{
+  font-size: 2.4vmax;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.ant-btn css-dev-only-do-not-override-htwhyh ant-btn-default ant-btn-block ex
+{
+  height: 100%;
+}
