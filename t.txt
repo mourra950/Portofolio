@@ -1,1 +1,0 @@
-Learned how to drive an autonomous car using python and ROS with concepts from computer vision and control and applied it in the competition where the goal was to drive a car through a long track using a wifi network only and no human interference. 🏆👨‍💻Ranked 6 out of 100 teams.
