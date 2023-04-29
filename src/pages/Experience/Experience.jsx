@@ -10,9 +10,7 @@ const { Content, Sider } = Layout;
 import { Typography, Row, Col, Card, Divider } from 'antd';
 import { certificates } from "./certificate"
 import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
-
 const { Paragraph } = Typography;
-
 import './experience.css'
 import Column from 'antd/es/table/Column';
 

@@ -1,12 +1,12 @@
 
 import { useState } from 'react';
-import { Figure } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { Button, FloatButton, Layout, Menu, theme } from 'antd';
+import { Layout, theme } from 'antd';
 import React from 'react';
-const { Header, Content, Footer, Sider } = Layout;
-import { Typography, Row, Col, Card, Divider, Image } from 'antd';
-import Carousel from 'react-bootstrap/Carousel';
+const { Content, Sider } = Layout;
+import { Typography, Row, Col, Divider, Image } from 'antd';
+
 const { Title, Paragraph } = Typography;
 import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
@@ -90,12 +90,12 @@ function Project() {
                             </Row>
                             <Divider />
 
-                            <div>
+                            <div >
                                 <Title className='SE'>
                                     Omar Yousef Portofolio
                                 </Title>
                                 <Paragraph className='SE' style={{ lineHeight: '36px' }}>
-                                    The website you are currently viewing is called the Omar Yousef Portfolio, and its purpose is to exhibit my abilities and assist me in finding an internship during my final summer in university. Initially, the website was modest and basic, composed only of HTML and vanilla Javascript. However, I was not content with the outcome, so I embarked on learning about Node.js and the React framework after completing my first web course. This opened up a whole new world of possibilities, and I decided to transform the website into an experience similar to a video game menu. I intend to continue updating it as frequently as possible, particularly after completing the Three.js course, as I learn more.
+                                    The website you are currently viewing is called the Omar Yousef Portfolio, and its purpose is to exhibit my abilities and assist me in finding an internship during my final summer in university. Initially, the website was modest and basic, composed only of HTML and vanilla Javascript. However, I was not content with the outcome, so I embarked on learning about Node.js and the React framework after completing my first web course <a href='https://cs50.harvard.edu/web/2020/'>"CS50W"</a>. This opened up a whole new world of possibilities, and I decided to transform the website into an experience similar to a video game . I intend to continue updating it as frequently as possible, particularly after I complete the Three.js course, and as I learn more.
                                 </Paragraph>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                                     <video disablePictureInPicture loop autoPlay width="100%">
@@ -113,7 +113,7 @@ function Project() {
                             </Title>
                             <Paragraph className='SE' style={{ lineHeight: '36px' }}>
                                 <ul>
-                                    <li>Page : <a href='https://mourra950.github.io/Portofolio/'>Live page</a></li>
+                                    <li>Page : <a href='https://mourra950.github.io/Portofolio/'>Live page [Github pages]</a></li>
                                     <li>Github Repo : <a href='https://github.com/mourra950/Portofolio/'>Repo</a></li>
                                 </ul>
                             </Paragraph>
@@ -139,10 +139,107 @@ function Project() {
                                 Links                                </Title>
                             <Paragraph className='SE' style={{ lineHeight: '36px' }}>
                                 <ul>
-                                    <li>Github Page : <a href='https://mourra950.github.io/My-Room-Threejs/'>Live page</a></li>
+                                    <li>Github Page : <a href='https://mourra950.github.io/My-Room-Threejs/'>Live page [Github pages]</a></li>
                                     <li>Github Repo : <a href='https://github.com/mourra950/My-Room-Threejs'>Repo</a></li>
                                 </ul>
                             </Paragraph>
+                            <Divider />
+                            <div>
+                                <Title className='SE'>
+                                    Rover NASA Mars Simulator
+                                </Title>
+                                <Paragraph className='SE' style={{ lineHeight: '36px' }}>
+                                    Leveraged my expertise in Python, OpenCV, and NumPy to write scripts that employed computer
+                                    vision techniques for autonomous navigation and gold rock collection in a simulation like errosion and perspective transform from camera view to bird eye view.Using my skills in Python, NumPy, and OpenCV, I created scripts that employed various computer vision techniques for autonomous navigation and gold rock collection in a simulation. These techniques included erosion, perspective transformation from camera view to bird's eye view, and others, etc.
+                                </Paragraph>
+                                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                                    <video disablePictureInPicture loop autoPlay width="100%">
+                                        <source src="./Videos/Rover.mp4" type="video/mp4" />
+                                    </video>
+                                    <p style={{ textAlign: 'center', margin: '10px' }}>
+                                        <b>Figure 3 :</b> Rover in action </p>
+                                </div>
+                                <Paragraph className='SE' style={{ lineHeight: '36px' }}>
+                                    As a university project for a computer vision course, my project involved implementing flawless execution, collision avoidance, and real-time mapping of the surrounding world. I am proud to say that the project was a success, and we were able to achieve a mapping accuracy of 95% with 90% precision, which resulted in top marks for the project.
+                                </Paragraph>
+                            </div>
+                            <Title className='SE'>
+                                Links
+                            </Title>
+                            <Paragraph className='SE' style={{ lineHeight: '36px' }}>
+                                <ul>
+                                    <li>Github Repo : <a href='https://github.com/mourra950/Rover_Sim'>Repo</a></li>
+                                    <li>Video Sample : <a href='https://www.youtube.com/watch?v=nr3JfPq8gJs'>Youtube</a></li>
+
+                                </ul>
+                            </Paragraph>
+                            <Divider />
+                            <div>
+                                <Title className='SE'>
+                                    3D modelling
+                                </Title>
+                                <Paragraph className='SE' style={{ lineHeight: '36px' }}>
+                                    I have a passion for animation and cartoons, and lately, I've been honing my skills in Blender. I've been creating 3D models of my favorite characters and scenes, and I'm proud to share my progress on my <a href='https://www.instagram.com/mourra_odyssy/'>Instagram page</a>. If you're interested, feel free to check it out!
+                                </Paragraph>
+                                <Carousel>
+                                    <Carousel.Item>
+                                        <Image
+                                            src="./photos/project/jake.jpg"
+                                            alt="First slide"
+                                        />
+                                        <Carousel.Caption>
+                                            <h3>Jake</h3>
+                                            <p>Adventure Time</p>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <Image
+                                            src="./photos/project/mike2.jpg"
+                                            alt="First slide"
+                                        />
+                                        <Carousel.Caption>
+                                            <h3>Mike</h3>
+                                            <p>Monster inc</p>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <Image
+                                            src="./photos/project/squidwardface.jpg"
+                                            alt="First slide"
+                                        />
+                                        <Carousel.Caption>
+                                            <h3>Squidward</h3>
+                                            <p>Spongbob Squarepants</p>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <Image
+                                            src="./photos/project/SquidwardHouse.jpg"
+                                            alt="First slide"
+                                        />
+                                        <Carousel.Caption>
+                                            <h3>Squidward House</h3>
+                                            <p>Spongbob Squarepants</p>
+                                        </Carousel.Caption>
+                                    </Carousel.Item><Carousel.Item>
+                                        <Image
+                                            src="./photos/project/shamshom.jpg"
+                                            alt="First slide"
+                                        />
+                                        <Carousel.Caption>
+                                            <h3>Plankton</h3>
+                                            <p>Spongbob Squarepants</p>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                </Carousel>
+
+                                <Paragraph className='SE' style={{ lineHeight: '36px' }}>
+                                    I am continuing to refine my 3D modeling skills and delving deeper into the realm of materials and material maps. In the near future, I intend to develop my own assets for use in my game.
+                                </Paragraph>
+                            </div>
+
+
+                            <Divider />
                         </div>
                     </Content>
                 </Layout>

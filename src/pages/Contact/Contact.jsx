@@ -1,13 +1,11 @@
 
 import { useState } from 'react';
 import { Figure } from 'react-bootstrap';
-
 import { Link } from 'react-router-dom';
 import { Button, Layout, Menu, theme } from 'antd';
 import React from 'react';
 const { Header, Content, Footer, Sider } = Layout;
 import { Typography, Row, Col, Card, Divider, Image } from 'antd';
-
 const { Title, Paragraph } = Typography;
 const skills = [
     {

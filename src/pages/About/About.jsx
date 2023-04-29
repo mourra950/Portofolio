@@ -1,14 +1,12 @@
 
 import { useState } from 'react';
 import { Figure } from 'react-bootstrap';
-
 import { Link } from 'react-router-dom';
 import { Button, Layout, Menu, theme } from 'antd';
 import React from 'react';
 const { Header, Content, Footer, Sider } = Layout;
 import { Typography, Row, Col, Card, Divider, Image } from 'antd';
 import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
-
 const { Title, Paragraph } = Typography;
 const skills = [
     {
@@ -189,14 +187,14 @@ function About() {
                             </Card>
                             <Divider />
                             <Title className='SE' level={2}>My Interests</Title>
-                            <Paragraph style={{ fontSize: "120%" }} className='SE'>
+                            <Paragraph className='SE'>
                                 My love for video games, pixel art, and the world of computers began with my first game, Pokemon Emerald.
                                 <Image style={{ padding: '20px 0 20px 0' }} src='./photos/about/pokemon.png' />
                                 I spent countless hours playing and replaying, enjoying every moment. While I played other games on different consoles, like PC, PS1 and PS2, none ignited my passion like my first time playing the GameBoy Legend of Zelda Minish Cap.
                                 <Image style={{ padding: '20px 0 20px 0' }} src='./photos/about/legend.jpg' />
                                 I was amazed at how a small game could pack so much fun , mystery, fun characters and enjoyable puzzels . From that moment, I started playing every Legend of Zelda game I could get my hands.
                             </Paragraph>
-                            <Paragraph style={{ fontSize: "120%" }} className='SE'>
+                            <Paragraph className='SE'>
                                 During my journey, I played other games from Triple A games to indie games like Undertale and Celeste,
                                 <Image style={{ padding: '20px 0 20px 0' }} src='./photos/about/celeste.jpg' />
 
