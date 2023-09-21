@@ -33,9 +33,9 @@ export default function Main() {
             <p ref={glitch.ref}  >Omar Yousef</p>
             <div>
                 {/* <Link to={'/room'} >Start</Link> */}
-                <Link to={'/about'} >About</Link>
-                <Link to={'/experience'} >Experience</Link>
-                <Link to={'/project'} >Projects</Link>
+                <Link key={"about"} to={'/about'} >About</Link>
+                <Link key={"experience"} to={'/experience'} >Experience</Link>
+                <Link key={"project"} to={'/project'} >Projects</Link>
             </div>
         </div>
     )

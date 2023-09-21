@@ -1,9 +1,8 @@
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Layout, theme } from 'antd';
-import React from 'react';
 const { Content, Sider } = Layout;
 import { Typography, Row, Col, Divider, Image } from 'antd';
 

@@ -1,10 +1,8 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
 import { Button, Layout, Menu, theme } from 'antd';
-import React from 'react';
 const { Header, Content, Footer, Sider } = Layout;
 // import FirstSection from './pages/mainpage/sections/FirstSection.jsx';
 // import Projects from './pages/mainpage/sections/Project.jsx';
@@ -32,7 +30,7 @@ function Hero() {
                     collapsedWidth="0"
                     style={{ backgroundColor: "white" }}
                 >
-                <p>Omar Yousef</p>
+                    <p>Omar Yousef</p>
                     <Button></Button>
                 </Sider>
                 <Layout>

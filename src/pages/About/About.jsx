@@ -1,13 +1,13 @@
 
-import { useState } from 'react';
+import React,{ useState } from 'react';
 import { Figure } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { Button, Layout, Menu, theme } from 'antd';
-import React from 'react';
-const { Header, Content, Footer, Sider } = Layout;
-import { Typography, Row, Col, Card, Divider, Image } from 'antd';
+import { Button, Layout, Menu, theme,Typography, Row, Col, Card, Divider, Image } from 'antd';
 import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
+
 const { Title, Paragraph } = Typography;
+const { Header, Content, Footer, Sider } = Layout;
+
 const skills = [
     {
         src: './icons/atom.png',
@@ -146,8 +146,8 @@ function About() {
                             <Divider />
                             <Title className='SE' level={2}>My Skills</Title>
                             <Row style={{ textAlign: 'center', justifyContent: 'center' }} gutter={[16, 16]}>
-                                {skills.map((icon) => (
-                                    <Col xs={8} sm={6} md={4}>
+                                {skills.map((icon,index) => (
+                                    <Col key={index} xs={8} sm={6} md={4}>
                                         <Figure >
                                             <Figure.Image className='skillz' src={icon.src} />
                                             <Figure.Caption> {icon.tite} </Figure.Caption>
