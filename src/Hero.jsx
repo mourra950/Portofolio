@@ -1,9 +1,8 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Button, Layout, Menu, theme } from 'antd';
-const { Header, Content, Footer, Sider } = Layout;
+import { Button, Layout, theme } from 'antd';
+const { Content, Sider } = Layout;
 // import FirstSection from './pages/mainpage/sections/FirstSection.jsx';
 // import Projects from './pages/mainpage/sections/Project.jsx';
 // import Skills from './pages/mainpage/sections/Skills.jsx';
