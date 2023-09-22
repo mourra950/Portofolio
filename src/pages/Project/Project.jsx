@@ -14,15 +14,15 @@ function Project() {
         <>
             <Layout style={{ height: "100vh" }}>
                 <SiderLay />
-                <motion.div
-                    key={'about'}
-                    initial={{ y: 400 }}
-                    animate={{ y: 0 }}
-                    exit={{ opacity: 0 }}
-                    transition={{duration:0.5,ease:'easeIn' }}
-                >
-                    <Layout>
 
+                <Layout className='contentlay'  >
+                    <motion.div
+                        key={'about'}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 1 }}
+                    >
                         <Content
                             style={{
                                 margin: '0px',
@@ -251,8 +251,8 @@ function Project() {
                                 <Divider />
                             </div>
                         </Content>
-                    </Layout>
-                </motion.div>
+                    </motion.div>
+                </Layout>
 
             </Layout >
         </>

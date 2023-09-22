@@ -34,14 +34,14 @@ export default function Main() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1,delay:0.3, ease: [0.17, 0.67, 0.83, 0.67] }}
+            transition={{ duration: 1, delay: 0.3, ease: [0.17, 0.67, 0.83, 0.67] }}
             className='firstpage'>
             <p ref={glitch.ref}  >Omar Yousef</p>
             <div>
                 {/* <Link to={'/room'} >Start</Link> */}
-                <Link key={"about"} to={'/about'} >About</Link>
-                <Link key={"experience"} to={'/experience'} >Experience</Link>
-                <Link key={"project"} to={'/project'} >Projects</Link>
+                <Link key={"about"} to={'/about'} animate={true}>About</Link>
+                <Link key={"experience"} to={'/experience'} animate={true} >Experience</Link>
+                <Link key={"project"} to={'/project'} animate={true} >Projects</Link>
             </div>
         </motion.div>
     )

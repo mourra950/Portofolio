@@ -47,5 +47,10 @@
 .project {
   font-size: larger;
 }
-
+body {
+  overflow: hidden;
+}
+.contentlay {
+  overflow-y: auto;
+}
 /*# sourceMappingURL=about.css.map */

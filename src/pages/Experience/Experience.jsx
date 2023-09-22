@@ -1,15 +1,12 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement, } from 'react-vertical-timeline-component';
-import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
 import 'react-vertical-timeline-component/style.min.css';
-import { Link } from 'react-router-dom';
-import { Button, Layout, theme, Typography, Row, Col, Card, Divider } from 'antd';
-const { Content, Sider } = Layout;
+import { Button, Layout, Typography, Row, Col, Card, Divider } from 'antd';
+const { Content } = Layout;
 import { certificates } from "./certificate"
 const { Paragraph } = Typography;
 import './experience.css'
-import Column from 'antd/es/table/Column';
 import { motion } from 'framer-motion';
 import { data } from "./experiencedata"
 import { SiderLay } from '../../Sider';
@@ -20,15 +17,15 @@ function Experience() {
         <>
             <Layout style={{ height: "100vh" }}>
                 <SiderLay />
-                <motion.div
-                    key={'experience'}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 1, ease: [0.17, 0.67, 0.83, 0.67] }}
-                >
-                    <Layout>
 
+                <Layout className='contentlay'>
+                    <motion.div
+                        key={'experience'}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 1 }}
+                    >
                         <Content
                             style={{
                                 margin: '0px 0px 0',
@@ -82,9 +79,8 @@ function Experience() {
                                 </Row>
                             </div>
                         </Content>
-
-                    </Layout>
-                </motion.div>
+                    </motion.div>
+                </Layout>
             </Layout >
         </>
     )
