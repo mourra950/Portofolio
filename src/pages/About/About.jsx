@@ -3,60 +3,21 @@ import React, { useState } from 'react';
 import { Figure } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Layout, theme, Typography, Row, Col, Card, Divider, Image } from 'antd';
-import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
 import './about.css'
 import { motion } from 'framer-motion';
 import { SKILLS, EDUCATION } from './aboutdata.js'
+import { SiderLay } from '../../Sider';
 
 
 const { Title, Paragraph } = Typography;
 const { Content, Sider } = Layout;
 
 function About() {
-    const [collapsed, setCollapsed] = useState(false);
 
-    const onCollapse = (collapsed) => {
-        setCollapsed(collapsed);
-    };
-    const {
-        token: { colorBgContainer },
-    } = theme.useToken();
     return (
         <>
             <Layout style={{ height: "100vh" }}>
-                <Sider
-                    width={200}
-                    breakpoint="md"
-                    collapsedWidth="0"
-                    theme='light'
-                    style={{ backgroundColor: "white" }}
-                >
-
-                    <p className='t'>Omar Yousef</p>
-                    <p className='s'>showcase 2023</p>
-                    <div className='side-nav'>
-                        <Link to='/' className='Sect' >Home</Link>
-                        <Link to='/about' className='Sect' >About</Link>
-                        <Link to='/experience' className='Sect' >Experience</Link>
-                        <Link to='/project' className='Sect' >Project</Link>
-                    </div>
-                    <div>
-                        <div className="social">
-                            <a style={{ fontSize: '28px' }} className="Github " href="https://github.com/mourra950">
-                                <BsGithub className="icon " />
-                            </a>
-                            <a style={{ fontSize: '28px' }} className="Youtube icon" href="https://www.youtube.com/@mourra9598/videos">
-                                <BsYoutube className="icon " />
-                            </a>
-                            <a style={{ fontSize: '28px' }} className="Insta icon" href="https://www.instagram.com/mourra_odyssy/">
-                                <BsInstagram className="icon " />
-                            </a>
-                            <a style={{ fontSize: '28px' }} className="Linkdin icon" href="https://www.linkedin.com/in/mourra950/">
-                                <BsLinkedin className="icon " />
-                            </a>
-                        </div>
-                    </div>
-                </Sider>
+                <SiderLay />
                 <motion.div
                     key={'about'}
                     initial={{ opacity: 0 }}
@@ -104,9 +65,9 @@ function About() {
                                     return (
                                         <Card key={edu.title}>
                                             <Title className='SE' level={3}>{edu.title}</Title>
-                                            {edu.description.map((paragraph) => {
+                                            {edu.description.map((paragraph, index) => {
                                                 return (
-                                                    <Paragraph className='SE'>
+                                                    <Paragraph key={index} className='SE'>
                                                         {paragraph}
                                                     </Paragraph>
                                                 )

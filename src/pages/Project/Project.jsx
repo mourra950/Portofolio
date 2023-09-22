@@ -1,80 +1,25 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { Layout, theme } from 'antd';
-const { Content, Sider } = Layout;
-import { Typography, Row, Col, Divider, Image } from 'antd';
+import { SiderLay } from '../../Sider';
+import { Layout, Typography, Row, Col, Divider, Image } from 'antd';
 const { Title, Paragraph } = Typography;
-import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
-import {motion} from 'framer-motion'
-
+import { motion } from 'framer-motion'
 import './project.css'
+const { Content } = Layout;
 
-
-const items = [
-    {
-        key: '1',
-        label: "Softwares and Websites",
-        children: "Content of Tab Pane 1",
-    }, {
-        key: '2',
-        label: "Softwares and Websites",
-        children: "Content of Tab Pane 2",
-    }
-];
 
 function Project() {
-    const [collapsed, setCollapsed] = useState(false);
-
-    const onCollapse = (collapsed) => {
-        setCollapsed(collapsed);
-    };
-    const {
-        token: { colorBgContainer },
-    } = theme.useToken();
     return (
         <>
             <Layout style={{ height: "100vh" }}>
-                <Sider
-                    width={200}
-                    breakpoint="md"
-                    collapsedWidth="0"
-                    theme='light'
-                    style={{ backgroundColor: "white" }}
-                >
-
-                    <p className='t'>Omar Yousef</p>
-                    <p className='s'>showcase 2023</p>
-                    <div className='side-nav'>
-                        <Link to='/' className='Sect' >Home</Link>
-                        <Link to='/about' className='Sect' >About</Link>
-                        <Link to='/experience' className='Sect' >Experience</Link>
-                        <Link to='/project' className='Sect' >Project</Link>
-                    </div>
-                    <div>
-                        <div className="social">
-                            <a style={{ fontSize: '28px' }} className="Github " href="https://github.com/mourra950">
-                                <BsGithub className="icon " />
-                            </a>
-                            <a style={{ fontSize: '28px' }} className="Youtube icon" href="https://www.youtube.com/@mourra9598/videos">
-                                <BsYoutube className="icon " />
-                            </a>
-                            <a style={{ fontSize: '28px' }} className="Insta icon" href="https://www.instagram.com/mourra_odyssy/">
-                                <BsInstagram className="icon " />
-                            </a>
-                            <a style={{ fontSize: '28px' }} className="Linkdin icon" href="https://www.linkedin.com/in/mourra950/">
-                                <BsLinkedin className="icon " />
-                            </a>
-                        </div>
-                    </div>
-                </Sider>
+                <SiderLay />
                 <motion.div
                     key={'about'}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
+                    initial={{ y: 400 }}
+                    animate={{ y: 0 }}
                     exit={{ opacity: 0 }}
-                    transition={{ ease: [0.17, 0.67, 0.83, 0.67] }}
+                    transition={{duration:0.5,ease:'easeIn' }}
                 >
                     <Layout>
 
