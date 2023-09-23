@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './indexpage.css'
+import { motion } from 'framer-motion';
 import { useGlitch } from 'react-powerglitch'
 export default function Main() {
     const glitch = useGlitch({
@@ -29,14 +30,19 @@ export default function Main() {
         "pulse": true
     });
     return (
-        <div className='firstpage'>
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1, delay: 0.5, ease: [0.17, 0.67, 0.83, 1] }}
+            className='firstpage'>
             <p ref={glitch.ref}  >Omar Yousef</p>
             <div>
                 {/* <Link to={'/room'} >Start</Link> */}
-                <Link to={'/about'} >About</Link>
-                <Link to={'/experience'} >Experience</Link>
-                <Link to={'/project'} >Projects</Link>
+                <Link key={"about"} to={'/about'} animate={true}>About</Link>
+                <Link key={"experience"} to={'/experience'} animate={true} >Experience</Link>
+                <Link key={"project"} to={'/project'} animate={true} >Projects</Link>
             </div>
-        </div>
+        </motion.div>
     )
 }

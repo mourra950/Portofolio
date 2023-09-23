@@ -1,29 +1,12 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
-import { Button, Layout, Menu, theme } from 'antd';
-import React from 'react';
-const { Header, Content, Footer, Sider } = Layout;
-// import FirstSection from './pages/mainpage/sections/FirstSection.jsx';
-// import Projects from './pages/mainpage/sections/Project.jsx';
-// import Skills from './pages/mainpage/sections/Skills.jsx';
-// import Educations from './pages/mainpage/sections/Educations.jsx';
-// import Experiences from './pages/mainpage/sections/Experiences.jsx';
-
+import React, { useState } from 'react';
+import { Button, Layout, theme } from 'antd';
+const { Content, Sider } = Layout;
 
 
 
 function Hero() {
-    const [collapsed, setCollapsed] = useState(false);
-
-    const onCollapse = (collapsed) => {
-        setCollapsed(collapsed);
-    };
-    const {
-        token: { colorBgContainer },
-    } = theme.useToken();
     return (
         <>
             <Layout style={{ height: "100vh" }}>
@@ -32,7 +15,7 @@ function Hero() {
                     collapsedWidth="0"
                     style={{ backgroundColor: "white" }}
                 >
-                <p>Omar Yousef</p>
+                    <p>Omar Yousef</p>
                     <Button></Button>
                 </Sider>
                 <Layout>
@@ -52,7 +35,6 @@ function Hero() {
                             content
                         </div>
                     </Content>
-
                 </Layout>
             </Layout>
         </>
