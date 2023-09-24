@@ -3,7 +3,10 @@ import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
 import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
 import { Layout } from "antd";
+import uisound from '/game.mp3'
+import { useSound } from 'use-sound';
 function SiderLay({ animate }) {
+    const [play] = useSound(uisound);
     return (
 
         < Layout.Sider
@@ -23,10 +26,10 @@ function SiderLay({ animate }) {
                 <p className='t'>Omar Yousef</p>
                 <p className='s'>showcase 2023</p>
                 <div className='side-nav'>
-                    <Link to='/' className='Sect' animate={true}>Home</Link>
-                    <Link to='/about' className='Sect' animate={false} >About</Link>
-                    <Link to='/experience' className='Sect' animate={false} >Experience</Link>
-                    <Link to='/project' className='Sect' animate={false} >Project</Link>
+                    <Link to='/' className='Sect' animate={true} onClick={play}>Home</Link>
+                    <Link to='/about' className='Sect' animate={false} onClick={play} >About</Link>
+                    <Link to='/experience' className='Sect' animate={false} onClick={play} >Experience</Link>
+                    <Link to='/project' className='Sect' animate={false} onClick={play} >Project</Link>
                 </div>
                 <div>
                     <div className="social">
