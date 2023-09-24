@@ -2,7 +2,11 @@ import { Link } from 'react-router-dom'
 import './indexpage.css'
 import { motion } from 'framer-motion';
 import { useGlitch } from 'react-powerglitch'
-export default function Main() {
+import uisound from '/game.mp3'
+import { useSound } from 'use-sound';
+export default function Main(...props) {
+    const [play] = useSound(uisound);
+
     const glitch = useGlitch({
         "playMode": "hover",
         "createContainers": true,
@@ -39,10 +43,10 @@ export default function Main() {
             <p ref={glitch.ref}  >Omar Yousef</p>
             <div>
                 {/* <Link to={'/room'} >Start</Link> */}
-                <Link key={"game"} to={'/game'} animate={true} >Projects</Link>
-                <Link key={"about"} to={'/about'} animate={true}>About</Link>
-                <Link key={"experience"} to={'/experience'} animate={true} >Experience</Link>
-                <Link key={"project"} to={'/project'} animate={true} >Projects</Link>
+                <Link key={"game"} to={'/game'} animate={true} onClick={play}>Projects</Link>
+                <Link key={"about"} to={'/about'} animate={true} onClick={play}>About</Link>
+                <Link key={"experience"} to={'/experience'} animate={true} onClick={play} >Experience</Link>
+                <Link key={"project"} to={'/project'} animate={true} onClick={play} >Projects</Link>
             </div>
         </motion.div>
     )
