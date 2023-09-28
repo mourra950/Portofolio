@@ -7,6 +7,13 @@ export const data = [
     }
     ,
     {
+        role: 'ECPC 2023',
+        title: 'Contestant',
+        des: 'Attended for the second time ECPC equipped and trained on better algorithm and better effiency ',
+        date: 'Aug 2023 - Sep 2023'
+    }
+    ,
+    {
         role: 'Game Jam GMTK',
         title: 'Participant',
         des: ' Participated in the Game Jam GMTK 2023 with the theme reversed roles and collaborated with a team to create a game where the character switch roles with the villains in a platform actiongame to reach the end of the mountain',
@@ -44,7 +51,7 @@ export const data = [
     }
     ,
     {
-        role: 'ICPC ',
+        role: 'ECPC 2021',
         title: 'Contestant',
         des: "I attended sessions to learn about computer algorithms and problem-solving using C and C++ for maximum efficiency, applying what I learned with my team in the ICPC competition and achieving a ranking of 17 at Ain Shams University.",
         date: 'Jun 2021 - Aug 2021'
