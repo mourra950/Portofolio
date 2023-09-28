@@ -2,9 +2,11 @@
 import { BsGithub, BsYoutube, BsInstagram, BsLinkedin } from 'react-icons/bs'
 import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
-import { Layout } from "antd";
+import { Button, Layout } from "antd";
 import uisound from '/game.mp3'
 import { useSound } from 'use-sound';
+import CV from '/CV.pdf';
+
 function SiderLay({ animate }) {
     const [play] = useSound(uisound);
     return (
@@ -30,6 +32,14 @@ function SiderLay({ animate }) {
                     <Link to='/about' className='Sect' animate={false} onClick={play} >About</Link>
                     <Link to='/experience' className='Sect' animate={false} onClick={play} >Experience</Link>
                     <Link to='/project' className='Sect' animate={false} onClick={play} >Project</Link>
+                    <a
+                        href={CV}
+                        download="Example-PDF-document"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <Button>Download CV</Button>
+                        </a>
                 </div>
                 <div>
                     <div className="social">

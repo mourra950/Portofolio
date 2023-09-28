@@ -39,7 +39,7 @@ function About() {
                                     <Col md={24} lg={12}>
 
                                         <Paragraph className='SE' style={{ lineHeight: '36px' }}>
-                                            fellow adventurer! I see you've stumbled upon my portfolio as a mighty computer engineer student from the great land of Egypt. As a brave soul who has majored in the mystical arts of computer graphics, I am well-versed in the ways of game development, embedded systems, web development, and the creation of wondrous 3D models. But that's just the beginning! I have also mastered the ways of pixel art, and can craft masterpieces by editing. So go ahead, take a look at my portfolio and delve into the many wonders I have to offer. I assure you, you won't be disappointed!
+                                            fellow adventurer! I see you've stumbled upon my portfolio as a mighty computer engineer student from the great land of Egypt. As a brave soul who has majored in the mystical arts of computer graphics, I am also well-versed in the ways of embedded systems, web development, and the creation of wondrous Softwares. But that's just the beginning! I have also mastered the ways of pixel art and editing. So go ahead, take a look at my portfolio and delve into the many wonders I have to offer. I assure you, you won't be disappointed!
                                         </Paragraph>
                                     </Col>
                                     <Col style={{ justifyContent: 'center', display: 'flex', justifyItems: 'center' }} md={24} lg={12}>
