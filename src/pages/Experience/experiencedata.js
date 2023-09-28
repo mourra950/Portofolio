@@ -72,7 +72,7 @@ export const data = [
     }
     ,
     {
-        role: ' IGSCE Teacher Assistant',
+        role: 'IGSCE Teacher Assistant',
         title: 'Math and Chemistry Advanced and Ordinary Level',
         des: 'Taught weak students , proctored and corrected exams',
         date: 'Jul 2018 - Mar 2020'
